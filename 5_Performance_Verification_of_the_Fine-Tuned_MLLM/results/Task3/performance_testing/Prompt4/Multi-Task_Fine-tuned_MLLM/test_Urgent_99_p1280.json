@@ -1,0 +1,11 @@
+{
+  "picture": "test_Urgent_99_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task3\\Test_dataset\\test_Urgent_99_p1280.jpg",
+  "true_grade": "紧急",
+  "response": "{\n  \"has_nest\": \"蓝框及鸟巢位于图片上方偏右的横担处，悬挂在绝缘子串上方\",\n  \"has_insulator\": \"存在|图中可见横担下方及塔身两侧有玻璃绝缘子串\",\n  \"nest_type\": \"是|鸟巢位于直线塔的横担上，并明显远离竖直塔身本体，属于横担鸟巢\",\n  \"material_droop\": \"是|鸟巢底部有大量树枝、稻草等材料明显向下垂落\",\n  \"nest_stable\": \"否|存在明显材料下垂，进入4B判定，无需根据鸟巢松散或体积判断\",\n  \"material_touch\": \"是|下垂材料位于绝缘子串正上方，部分较长材料已延伸至绝缘子串附近并与绝缘子接触或散落在绝缘子周围\",\n  \"grade_result\": \"紧急|图中存在绝缘子串，鸟巢位于横担上，且有大量材料明显下垂；下垂物超过连接金具范围并触及或接近绝缘子串，依据决策树定级为紧急\"\n}",
+  "answer": "紧急",
+  "correct": 1,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

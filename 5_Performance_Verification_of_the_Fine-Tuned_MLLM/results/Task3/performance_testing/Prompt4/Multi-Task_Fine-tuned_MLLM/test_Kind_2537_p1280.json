@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_2537_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task3\\Test_dataset\\test_Kind_2537_p1280.jpg",
+  "true_grade": "一般",
+  "response": "{\n  \"has_nest\": \"蓝框及鸟巢位于图片中部偏右上方，在横担水平构件上、垂直悬挂的绝缘子串上方。\",\n  \"has_insulator\": \"存在|图中右侧清晰可见一串垂直悬挂的褐色绝缘子，通过金属挂具连接横担。\",\n  \"nest_type\": \"是|鸟巢位于向右延伸的横担水平构件上，明显远离图片左侧的竖直塔身，属于横担鸟巢。\",\n  \"material_droop\": \"否|蓝框内鸟巢材料集中在横担构件上，未见树枝、稻草等材料明显向下悬垂。\",\n  \"nest_stable\": \"否|鸟巢体积较小，材料较集中，未见明显松散或体积很大的情况。\",\n  \"material_touch\": \"否|未见鸟巢材料下垂，按决策树进入步骤4A，此字段无需进一步判定。\",\n  \"grade_result\": \"一般|图中存在绝缘子串，蓝框内鸟巢位于明显远离竖直塔身的横担上，属于横担鸟巢；未见材料下垂，且鸟巢体积较小、未见明显松散，依据决策树步骤4A，定级为一般。\",\n  \"z_end_turn_review\": \"",
+  "answer": "一般",
+  "correct": 1,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

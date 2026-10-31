@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_1793_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task3\\Test_dataset\\test_Major_1793_p1280.jpg",
+  "true_grade": "重大",
+  "response": "{\n  \"has_nest\": \"蓝框及鸟巢位于图片中部，鸟巢搭建在横梁中央的斜撑交汇处，位于悬垂绝缘子串正上方\",\n  \"has_insulator\": \"存在|图中部下方可见一串竖直悬挂的复合绝缘子，通过金属挂具连接在横梁下方\",\n  \"nest_type\": \"是|鸟巢位于横梁中部，明显远离两侧竖直塔身，属于横担鸟巢\",\n  \"material_droop\": \"是|鸟巢底部可见多根树枝和草状材料越过横梁下缘向下垂落，延伸至绝缘子上方的金属挂具附近\",\n  \"nest_stable\": \"否|存在材料下垂，按决策树进入步骤4B，无需判定无下垂情况下的鸟巢松散程度或体积\",\n  \"material_touch\": \"否|可见下垂枝条主要位于横梁与绝缘子上端金属挂具附近，未见下垂物明显超过金属挂具长度并触碰、缠绕绝缘子串或散落在绝缘子周围\",\n  \"grade_result\": \"重大|图中存在绝缘子串，蓝框内鸟巢位于远离竖直塔身的横梁中部，属于横担鸟巢；鸟巢有明显材料下垂，但未见下垂物明显超过连接金属挂具长度并触碰、缠绕绝缘子或散落在绝缘子周围，依据决策树步骤4B，定级为重大\"\n}",
+  "answer": "重大",
+  "correct": 1,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

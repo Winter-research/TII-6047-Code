@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_5548_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task1\\Test_dataset\\test_Major_5548_p1280.jpg",
+  "true_grade": "重大",
+  "response": "{\n  \"location_description\": \"耐张线夹铝管位于图片中部蓝框内，沿左上至右下方向延伸；左端通过钢锚连接左侧金具，右端连接向画面右侧延伸的绞合导线。蓝框左下方下伸部分为连接结构，不作为铝管主体压接段判断。\",\n  \"left_end_crimp\": \"否|铝管左端靠近连接结构处可见向管身延续的平直棱边和规则压平面，并非保持圆柱形的光滑区域，具有压接形变特征。\",\n  \"right_end_crimp\": \"否|铝管右端导线侧可见连续的平直侧面和清晰纵向棱边，规则压瘪形态延伸至导线入口附近，不是单纯由高亮或阴影形成的明暗变化，存在压接痕迹。\",\n  \"grade_result\": \"一般|铝管左端存在规则压平面及棱边，不符合圆柱形光滑未压接区域的特征，依据决策树第一步即判为一般；右端也可见连续棱角状压接区段，不满足左右两端均无压接痕迹的重大缺陷条件。\"\n}",
+  "answer": "一般",
+  "correct": 0,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

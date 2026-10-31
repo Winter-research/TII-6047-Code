@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_56_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task3\\Test_dataset\\test_Else_56_p1280.jpg",
+  "true_grade": "其他",
+  "response": "{\n  \"has_nest\": \"蓝框及鸟巢位于图片中下部偏右，紧邻水泥杆本体，处于横担与水泥杆连接位置附近\",\n  \"has_insulator\": \"存在|图中左侧可见一串悬挂于横担端部的玻璃绝缘子，右侧横担端部也可见玻璃绝缘子串\",\n  \"nest_type\": \"否|蓝框内鸟巢紧贴竖直水泥杆本体，位于水泥杆与横担交界附近，未明显远离杆体，属于塔身鸟巢\",\n  \"material_droop\": \"否|属于塔身鸟巢，后续无判定必要\",\n  \"nest_stable\": \"否|属于塔身鸟巢，后续无判定必要\",\n  \"material_touch\": \"否|属于塔身鸟巢，后续无判定必要\",\n  \"grade_result\": \"其他|图中存在玻璃绝缘子串，但蓝框内鸟巢位于水泥杆本体与横担交界附近，紧邻杆体，属于塔身鸟巢。依据定级决策树步骤2，判定为其他，后续无需判断材料下垂、鸟巢松散程度及是否触碰绝缘子\"\n}",
+  "answer": "其他",
+  "correct": 1,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

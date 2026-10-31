@@ -1,0 +1,110 @@
+{
+  "3b9961c9f30c06d5a29d44e95f020ad99485d1635b92eace3e99f9ddade8d450": {
+    "task": "Task1",
+    "result_path": "results\\Task1\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Kind_256_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 0,
+      "F": 0,
+      "V": 0,
+      "L": 0,
+      "V_H": 1,
+      "L_H": 0,
+      "first_error_type": "visual",
+      "judge_reason": "模型CoT全部为空，首先缺失铝管位置及左右端压接状态的视觉判断，未识别左端平滑无压接、右端有连续棱角状压接且约占管长一半的特征；同时未提供决策树推理及一般缺陷的等级结论。",
+      "judge_response": "{\n  \"visual_correct\": 0,\n  \"logical_correct\": 0,\n  \"first_error_type\": \"visual\",\n  \"reason\": \"模型CoT全部为空，首先缺失铝管位置及左右端压接状态的视觉判断，未识别左端平滑无压接、右端有连续棱角状压接且约占管长一半的特征；同时未提供决策树推理及一般缺陷的等级结论。\"\n}",
+      "fully_correct": 0
+    }
+  },
+  "2aa01cea5799af9eb6df863a2bbf4c1d4ce6ce324430f250bce350ad7320f4ba": {
+    "task": "Task1",
+    "result_path": "results\\Task1\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Kind_5892_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 0,
+      "F": 0,
+      "V": 0,
+      "L": 0,
+      "V_H": 1,
+      "L_H": 0,
+      "first_error_type": "visual",
+      "judge_reason": "模型各字段均为空，首先缺失设备定位及两端压接状态的视觉判断，未识别导线侧有明显压接痕迹、钢锚侧保持圆柱形光滑的事实；也未提供决策树推理及一般缺陷的定级结论。",
+      "judge_response": "{\n  \"visual_correct\": 0,\n  \"logical_correct\": 0,\n  \"first_error_type\": \"visual\",\n  \"reason\": \"模型各字段均为空，首先缺失设备定位及两端压接状态的视觉判断，未识别导线侧有明显压接痕迹、钢锚侧保持圆柱形光滑的事实；也未提供决策树推理及一般缺陷的定级结论。\"\n}",
+      "fully_correct": 0
+    }
+  },
+  "dd6410bb2899efd2df4e2026fb59c8288c228d59951cd2c2aad3998e9c248a80": {
+    "task": "Task1",
+    "result_path": "results\\Task1\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Kind_7946_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 0,
+      "F": 0,
+      "V": 0,
+      "L": 1,
+      "V_H": 1,
+      "L_H": 0,
+      "first_error_type": "visual",
+      "judge_reason": "模型CoT全部为空，首先遗漏了铝管定位及影响定级的关键视觉事实：左端存在连续规则的棱角压接痕迹，右端保持光滑圆柱形、无压接痕迹。按首错归因记为visual；未出现可独立归因的错误逻辑推断。",
+      "judge_response": "{\n  \"visual_correct\": 0,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"visual\",\n  \"reason\": \"模型CoT全部为空，首先遗漏了铝管定位及影响定级的关键视觉事实：左端存在连续规则的棱角压接痕迹，右端保持光滑圆柱形、无压接痕迹。按首错归因记为visual；未出现可独立归因的错误逻辑推断。\"\n}",
+      "fully_correct": 0
+    }
+  },
+  "54fcbea0c9ce22f73fc9a4c749e9f98cdf2773972e93f6706a3c103ed6c3100f": {
+    "task": "Task1",
+    "result_path": "results\\Task1\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Major_1378_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 0,
+      "F": 0,
+      "V": 0,
+      "L": 1,
+      "V_H": 1,
+      "L_H": 0,
+      "first_error_type": "visual",
+      "judge_reason": "模型CoT全部为空，首先遗漏了铝管定位及左右两端均光滑、无压接痕迹的关键视觉事实，属于视觉描述不完整。未提供可独立判定为错误的逻辑推断，按首错归因不重复归为逻辑错误。",
+      "judge_response": "{\n  \"visual_correct\": 0,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"visual\",\n  \"reason\": \"模型CoT全部为空，首先遗漏了铝管定位及左右两端均光滑、无压接痕迹的关键视觉事实，属于视觉描述不完整。未提供可独立判定为错误的逻辑推断，按首错归因不重复归为逻辑错误。\"\n}",
+      "fully_correct": 0
+    }
+  },
+  "11123d40a2785041a064efc62c01851ffd3cf5a320284ab846bc04ac9405bfc4": {
+    "task": "Task1",
+    "result_path": "results\\Task1\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Major_4793_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 1,
+      "F": 1,
+      "V": 1,
+      "L": 1,
+      "V_H": 0,
+      "L_H": 0,
+      "first_error_type": "none",
+      "judge_reason": "模型对铝管位置、连接方向及两端圆柱形光滑、无压接痕迹的描述与图片及专家标注一致；依据两端均缺失压接形变判定为重大缺陷，推理和等级映射正确。",
+      "judge_response": "{\n  \"visual_correct\": 1,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"none\",\n  \"reason\": \"模型对铝管位置、连接方向及两端圆柱形光滑、无压接痕迹的描述与图片及专家标注一致；依据两端均缺失压接形变判定为重大缺陷，推理和等级映射正确。\"\n}",
+      "fully_correct": 1
+    }
+  },
+  "693b45e5018b2f8e556d5ac693dd7a8820da325120bf5e55781a2b780dffd98b": {
+    "task": "Task1",
+    "result_path": "results\\Task1\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Major_5548_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 0,
+      "F": 0,
+      "V": 0,
+      "L": 0,
+      "V_H": 1,
+      "L_H": 0,
+      "first_error_type": "visual",
+      "judge_reason": "模型CoT全部为空，首个问题是缺失设备定位及两端压接状态的视觉描述，未识别专家标注的两端均光滑、压接痕迹完全缺失；同时未给出决策树推理及重大缺陷定级。",
+      "judge_response": "{\n  \"visual_correct\": 0,\n  \"logical_correct\": 0,\n  \"first_error_type\": \"visual\",\n  \"reason\": \"模型CoT全部为空，首个问题是缺失设备定位及两端压接状态的视觉描述，未识别专家标注的两端均光滑、压接痕迹完全缺失；同时未给出决策树推理及重大缺陷定级。\"\n}",
+      "fully_correct": 0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+﻿task,model,prompt_setting,expected_count,result_count,parsed_count,missing_count,unparsed_count,ACC (%),MP (%),MR (%),MF1 (%),NMAE (%),R_K (%),over_grading_rate (%),under_grading_rate (%),ACC_FC_MCoT (%),VHR_CoT (%),LHR_CoT (%),status
+Task1,Multi-Task_Fine-tuned_MLLM,Prompt 4 - GDT-Based CoT Process + Reference Images,6,6,6,0,0,66.6667,80.0,66.6667,62.5,33.3333,33.3333,0.0,33.3333,N/A,N/A,N/A,complete
+Task2,Multi-Task_Fine-tuned_MLLM,Prompt 4 - GDT-Based CoT Process + Reference Images,9,9,9,0,0,55.5556,47.619,55.5556,46.6667,22.2222,66.6667,33.3333,11.1111,N/A,N/A,N/A,complete
+Task3,Multi-Task_Fine-tuned_MLLM,Prompt 4 - GDT-Based CoT Process + Reference Images,12,12,12,0,0,91.6667,93.75,91.6667,91.4286,2.7778,100.0,0.0,8.3333,N/A,N/A,N/A,complete
+Task_Average,Multi-Task_Fine-tuned_MLLM,Prompt 4 - GDT-Based CoT Process + Reference Images,27,27,27,0,0,71.2963,73.7897,71.2963,66.8651,19.4444,66.6667,11.1111,17.5926,N/A,N/A,N/A,complete

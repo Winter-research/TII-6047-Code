@@ -1,0 +1,88 @@
+[System Prompt]
+[Role] You are an expert in power transmission equipment defect grading. Your responsibility is to reliably grade defects based on the visible evidence in the image, the provided expert knowledge, and the grading decision tree.
+
+The defect grades, ordered from most to least severe, are "Urgent", "Major", "Kind", and "Else". Not every task includes all four grades; always follow the grading decision tree specified for the current task.
+
+[User Prompt]
+[Task] You need to determine the defect grade of Tension Clamp - Crimping. This task includes the "Kind" and "Major" grades.
+
+Please note the following:
+1. In the image to be graded, the tension clamp is located within the blue box. First identify the position of the aluminum tube on the tension clamp.
+2. One end of the aluminum tube is connected to the steel anchor, and the other end is connected to the conductor. If the connection structures are visible, determine whether the left and right ends are connected to the steel anchor or the conductor. Do not infer a connection that is not visible.
+3. Crimping permanently deforms the aluminum tube using hydraulic or mechanical pressure, thereby forming a secure connection with the conductor. A crimped section generally has continuous hexagonal edges or a regularly flattened profile.
+4. An angular or regularly flattened section indicates crimping, whereas a smooth cylindrical section indicates no crimping. Exclude false crimping features caused by illumination, highlights, shadows, corrosion, or image blur.
+
+[Decision Tree] Proceed to inspect by sequentially executing the following decision-tree steps:
+
+1. left_end_crimp: Is the left end of the aluminum tube a smooth cylindrical area?
+   ├─ No → Crimping marks are present at the left end; the grade result is "Kind".
+   └─ Yes → Proceed to inspect the right end.
+
+2. right_end_crimp: Is the right end of the aluminum tube a smooth cylindrical area?
+   ├─ No → Crimping marks are present at the right end; the grade result is "Kind".
+   └─ Yes → Neither end has crimping marks; the grade result is "Major".
+
+[Format] Output must be valid JSON, with no fields added, removed, or renamed. The values of left_end_crimp, right_end_crimp, and grade_result must follow the format "Conclusion | Sufficient reason". Output only the JSON object, without a Markdown code block or any additional text.
+
+{
+  "location_description": "Location of the blue box and the tension-clamp aluminum tube, including whether the left and right ends are connected to the steel anchor or the conductor",
+  "left_end_crimp": "<Yes|No> | <Reason based on the shape of the left end of the aluminum tube>",
+  "right_end_crimp": "<Yes|No> | <Reason based on the shape of the right end of the aluminum tube>",
+  "grade_result": "<Kind|Major> | <Complete reason integrating the preceding observations according to the decision tree>"
+}
+
+[Reference Images] Here are four manually verified reference images with their complete grading processes and results. Please study and reference the reasoning method and output format.
+
+Example 1:
+
+<image>
+
+The standard grading process and result for this reference image are as follows:
+{
+  "location_description": "The tension-clamp aluminum tube is located within the blue box. Its left end is connected to the steel anchor, and its right end is connected to the conductor.",
+  "left_end_crimp": "Yes | No crimping marks are visible on the left, steel-anchor end of the aluminum tube.",
+  "right_end_crimp": "No | A distinct hexagonal crimped section is visible on the right, conductor end and occupies approximately 50% of the aluminum tube.",
+  "grade_result": "Kind | The left end has no crimping marks, whereas the right end has a distinct hexagonal crimped section covering approximately 50% of the tube. This is an uncrimped-crimped condition and is therefore graded as Kind according to the decision tree."
+}
+
+Example 2:
+
+<image>
+
+The standard grading process and result for this reference image are as follows:
+{
+  "location_description": "The tension-clamp aluminum tube is located within the blue box. Its left end is connected to the conductor, and its right end is connected to the steel anchor.",
+  "left_end_crimp": "No | Distinct hexagonal crimping marks are visible on the left end and occupy approximately 60% of the aluminum tube.",
+  "right_end_crimp": "Yes | No crimping marks are visible on the right end of the aluminum tube.",
+  "grade_result": "Kind | The left end has clear hexagonal crimping marks covering approximately 60% of the tube. These marks are not artifacts caused by illumination, shadows, or image blur. The right end remains uncrimped, forming a crimped-uncrimped condition that is graded as Kind according to the decision tree."
+}
+
+Example 3:
+
+<image>
+
+The standard grading process and result for this reference image are as follows:
+{
+  "location_description": "The tension-clamp aluminum tube is located within the blue box. Its left end is connected to the steel anchor, and its right end is connected to the conductor.",
+  "left_end_crimp": "Yes | The left, steel-anchor end has no crimping marks and retains a cylindrical shape.",
+  "right_end_crimp": "Yes | The right, conductor end has no crimping marks and retains a cylindrical shape.",
+  "grade_result": "Major | Neither end of the aluminum tube has crimping marks. Both ends are smooth and cylindrical, forming an uncrimped-uncrimped condition that is graded as Major according to the decision tree."
+}
+
+Example 4:
+
+<image>
+
+The standard grading process and result for this reference image are as follows:
+{
+  "location_description": "The tension-clamp aluminum tube is located within the blue box. Its left end is connected to the conductor, and its right end is connected to the steel anchor.",
+  "left_end_crimp": "Yes | The left end has no crimping marks and retains a cylindrical shape.",
+  "right_end_crimp": "Yes | The right end has no crimping marks and retains a cylindrical shape.",
+  "grade_result": "Major | Both ends of the aluminum tube are smooth, flat, and cylindrical, with no continuous angular crimping marks. Neither the conductor end nor the steel-anchor end contains a regularly flattened or angular section, and the deformation associated with crimping is entirely absent. The overcast conditions also exclude illumination effects. This is an uncrimped-uncrimped condition and is graded as Major according to the decision tree."
+}
+
+[Objective Image] This is the objective image to be graded:
+
+<image>
+
+[Question1] Based on the task information, decision tree, output format, and manually verified reference images provided above, analyze the objective image and determine its defect grade. Output the complete grading process and result strictly in the specified JSON format.

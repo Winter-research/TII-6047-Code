@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_3350_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task2\\Test_dataset\\test_Kind_3350_p1280.jpg",
+  "true_grade": "一般",
+  "response": "{\n  \"location_description\": \"拉线金具位于图片中部偏右的蓝框内，呈纵向安装并与拉线连接。\",\n  \"degree_of_rusting\": \"是|金具本体大部分呈深红褐色和黑褐色锈蚀，锈蚀覆盖面积明显超过本体面积的一半，金具原有颜色已难以辨认\",\n  \"smoothness_and_architecture\": \"否|金具表面虽有明显锈斑和一定粗糙感，但未见强毛刺、明显结构风化、破损或变形，整体结构仍较完整\",\n  \"grade_result\": \"一般|金具本体存在大面积深红褐色和黑褐色锈蚀，覆盖面积超过一半，但未发现强毛刺或结构风化、破损及变形，依据决策树定级为一般\"\n}",
+  "answer": "一般",
+  "correct": 1,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

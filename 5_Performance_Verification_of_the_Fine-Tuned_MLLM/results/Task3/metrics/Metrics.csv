@@ -1,0 +1,2 @@
+﻿task,model,prompt_setting,expected_count,result_count,parsed_count,missing_count,unparsed_count,ACC (%),MP (%),MR (%),MF1 (%),NMAE (%),R_K (%),over_grading_rate (%),under_grading_rate (%),ACC_FC_MCoT (%),VHR_CoT (%),LHR_CoT (%),status
+Task3,Multi-Task_Fine-tuned_MLLM,Prompt 4 - GDT-Based CoT Process + Reference Images,12,12,12,0,0,91.6667,93.75,91.6667,91.4286,2.7778,100.0,0.0,8.3333,N/A,N/A,N/A,complete

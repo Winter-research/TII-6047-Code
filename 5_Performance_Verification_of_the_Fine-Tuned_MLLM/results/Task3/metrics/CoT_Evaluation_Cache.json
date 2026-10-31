@@ -1,0 +1,110 @@
+{
+  "f30e0dc94b324e7a938fcf79ad262e8ae9578f1ecc3fb841eafee4b582442fcc": {
+    "task": "Task3",
+    "result_path": "results\\Task3\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Else_1010_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 1,
+      "F": 1,
+      "V": 1,
+      "L": 1,
+      "V_H": 0,
+      "L_H": 0,
+      "first_error_type": "none",
+      "judge_reason": "模型对鸟巢位于塔身与横担交界处的塔身构架内、玻璃绝缘子串悬挂于右侧横担外端的描述与图片及专家标注一致；据此判为塔身鸟巢，跳过后续字段并定级为“其他”，分支与等级映射正确。",
+      "judge_response": "{\n  \"visual_correct\": 1,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"none\",\n  \"reason\": \"模型对鸟巢位于塔身与横担交界处的塔身构架内、玻璃绝缘子串悬挂于右侧横担外端的描述与图片及专家标注一致；据此判为塔身鸟巢，跳过后续字段并定级为“其他”，分支与等级映射正确。\"\n}",
+      "fully_correct": 1
+    }
+  },
+  "c87efbae88b7839ee44042456f6b68a7c80afe45de39a2cbadc4a2654c39c048": {
+    "task": "Task3",
+    "result_path": "results\\Task3\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Else_56_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 1,
+      "F": 1,
+      "V": 1,
+      "L": 1,
+      "V_H": 0,
+      "L_H": 0,
+      "first_error_type": "none",
+      "judge_reason": "模型对鸟巢位置、玻璃绝缘子存在及塔身鸟巢类型的描述与图片和专家标注一致；按塔身鸟巢分支判定为“其他”，后续无需判断材料下垂、鸟巢稳定性及是否触碰绝缘子，推理与等级映射正确。",
+      "judge_response": "{\n  \"visual_correct\": 1,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"none\",\n  \"reason\": \"模型对鸟巢位置、玻璃绝缘子存在及塔身鸟巢类型的描述与图片和专家标注一致；按塔身鸟巢分支判定为“其他”，后续无需判断材料下垂、鸟巢稳定性及是否触碰绝缘子，推理与等级映射正确。\"\n}",
+      "fully_correct": 1
+    }
+  },
+  "0841f89ddf6fe727d0f632a6ac4c62df89eae827ce90a49f497ecd05a57ddd2c": {
+    "task": "Task3",
+    "result_path": "results\\Task3\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Else_944_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 1,
+      "F": 1,
+      "V": 1,
+      "L": 1,
+      "V_H": 0,
+      "L_H": 0,
+      "first_error_type": "none",
+      "judge_reason": "模型对蓝框鸟巢、白色绝缘子串及鸟巢靠近竖直塔身构件交接处的描述与图片及专家标注一致；将其判为塔身鸟巢，跳过后续判定并定级为“其他”，推理与等级映射正确。",
+      "judge_response": "{\n  \"visual_correct\": 1,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"none\",\n  \"reason\": \"模型对蓝框鸟巢、白色绝缘子串及鸟巢靠近竖直塔身构件交接处的描述与图片及专家标注一致；将其判为塔身鸟巢，跳过后续判定并定级为“其他”，推理与等级映射正确。\"\n}",
+      "fully_correct": 1
+    }
+  },
+  "4ce0d71e0d0c4b4c58fa07275ce4380e4cdeb5bf0cc191a621c4f5a5e9eda234": {
+    "task": "Task3",
+    "result_path": "results\\Task3\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Kind_2537_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 0,
+      "B": 0,
+      "F": 0,
+      "V": 1,
+      "L": 1,
+      "V_H": 0,
+      "L_H": 0,
+      "first_error_type": "none",
+      "judge_reason": "模型对鸟巢位置、绝缘子存在、横担鸟巢类型、材料无明显下垂及鸟巢较小且稳定的描述与图片和专家标注一致；进入步骤4A、无需继续判定材料接触并定级为一般，推理与等级映射正确。",
+      "judge_response": "{\n  \"visual_correct\": 1,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"none\",\n  \"reason\": \"模型对鸟巢位置、绝缘子存在、横担鸟巢类型、材料无明显下垂及鸟巢较小且稳定的描述与图片和专家标注一致；进入步骤4A、无需继续判定材料接触并定级为一般，推理与等级映射正确。\",\n  \"z_end_turn_review\": \"",
+      "fully_correct": 0
+    }
+  },
+  "66f8f296b8a94b6832ef611d10eb65ec43d5e8cbb552058d492cef34f3e3b035": {
+    "task": "Task3",
+    "result_path": "results\\Task3\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Kind_2803_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 1,
+      "F": 1,
+      "V": 0,
+      "L": 1,
+      "V_H": 1,
+      "L_H": 0,
+      "first_error_type": "visual",
+      "judge_reason": "首个错误出现在nest_type：模型称鸟巢“明显远离竖直塔身本体”，但图中鸟巢紧邻右侧塔身构件，该距离描述缺乏依据。随后将鸟巢描述为“结构较为紧凑”也与专家标注的“未成形、结构松散但体积非常小”不一致。给定模型所述视觉事实，其无材料下垂、进入4A并定级为一般的推理未见独立逻辑错误。",
+      "judge_response": "{\n  \"visual_correct\": 0,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"visual\",\n  \"reason\": \"首个错误出现在nest_type：模型称鸟巢“明显远离竖直塔身本体”，但图中鸟巢紧邻右侧塔身构件，该距离描述缺乏依据。随后将鸟巢描述为“结构较为紧凑”也与专家标注的“未成形、结构松散但体积非常小”不一致。给定模型所述视觉事实，其无材料下垂、进入4A并定级为一般的推理未见独立逻辑错误。\"\n}",
+      "fully_correct": 0
+    }
+  },
+  "0821a48155c9dda3ef0979ddf5eb451e21302e69bc9e86d5ab42027b44152f06": {
+    "task": "Task3",
+    "result_path": "results\\Task3\\performance_testing\\Prompt4\\Multi-Task_Fine-tuned_MLLM\\test_Kind_882_p1280.json",
+    "judge_model": "gpt-5.6-sol",
+    "evaluation": {
+      "J": 1,
+      "B": 1,
+      "F": 1,
+      "V": 1,
+      "L": 1,
+      "V_H": 0,
+      "L_H": 0,
+      "first_error_type": "none",
+      "judge_reason": "模型对鸟巢位置、绝缘子串、鸟巢紧凑且体积较小、无明显材料下垂等描述与图片及专家标注一致；依据横担鸟巢无下垂且体积较小的分支定级为一般，推理与等级映射正确。material_touch的补充描述未改变决策分支。",
+      "judge_response": "{\n  \"visual_correct\": 1,\n  \"logical_correct\": 1,\n  \"first_error_type\": \"none\",\n  \"reason\": \"模型对鸟巢位置、绝缘子串、鸟巢紧凑且体积较小、无明显材料下垂等描述与图片及专家标注一致；依据横担鸟巢无下垂且体积较小的分支定级为一般，推理与等级映射正确。material_touch的补充描述未改变决策分支。\"\n}",
+      "fully_correct": 1
+    }
+  }
+}

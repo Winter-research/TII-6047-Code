@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_7946_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task1\\Test_dataset\\test_Kind_7946_p1280.jpg",
+  "true_grade": "一般",
+  "response": "{\n  \"location_description\": \"耐张线夹铝管位于图片中部蓝框内，整体由左下方向右上方延伸；左端连接可见的绞合导线，右端通过钢锚连接环形连接金具，为钢锚端。\",\n  \"left_end_crimp\": \"否|铝管左端靠近导线的一段具有连续的平直棱边和规则压平面，可见由多个平面构成的棱角状压接区段，并非圆柱形光滑区域；这些形态具有实际轮廓变化，不只是光照或阴影造成的明暗差异。\",\n  \"right_end_crimp\": \"是|铝管右端靠近钢锚的一段外形圆润，保持圆柱形，表面平滑，未见连续的六边形棱角或规则压瘪区段。\",\n  \"grade_result\": \"一般|铝管左端导线侧存在清晰的棱角状压接区段，右端钢锚侧保持圆柱形光滑形态，呈现“压接-未压接”情形。依据决策树，第一步检查发现左端并非圆柱形光滑区域、存在压接痕迹，即判定为一般缺陷。\"\n}",
+  "answer": "一般",
+  "correct": 1,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_13_p1280.jpg",
+  "image_path": "D:\\博士小论文\\GradeMLLM\\TII-6047-Code\\Data\\Sample_Dataset\\Task2\\Test_dataset\\test_Major_13_p1280.jpg",
+  "true_grade": "重大",
+  "response": "{\n  \"location_description\": \"目标拉线金具位于图片中部蓝色矩形框内，呈上端偏右、下端偏左的倾斜纵向分布。\",\n  \"degree_of_rusting\": \"是|金具本体大部分表面呈深红褐色和暗褐色，锈蚀覆盖明显超过一半，接近或超过四分之三，原有亮银色或亮黄色已难以辨认。\",\n  \"smoothness_and_architecture\": \"否|金具表面可见锈斑和局部粗糙感，但未见明显强毛刺、深度剥蚀或结构风化；整体轮廓连续，未见明确破损及变形。\",\n  \"grade_result\": \"一般|金具本体存在大面积深红褐色及暗褐色锈蚀，覆盖接近或超过四分之三，但未见强毛刺感及明确的结构风化、破损或变形，依据决策树步骤2B定级为一般。\",\n  \"z_end_turn_review\": \"",
+  "answer": "一般",
+  "correct": 0,
+  "model": "gpt-5.6-sol",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
+

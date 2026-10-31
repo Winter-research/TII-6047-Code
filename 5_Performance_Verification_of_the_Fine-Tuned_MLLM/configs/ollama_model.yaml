@@ -1,0 +1,20 @@
+ollama:
+  api_url: http://127.0.0.1:11434/api/chat
+  model: paper_gllm_joint_language_p1280_e300:latest
+
+result:
+  model_name: Multi-Task_Fine-tuned_MLLM
+
+image:
+  resolution: 1280
+
+generation:
+  temperature: 0.0
+  top_p: 0.9
+  num_predict: 12280
+  num_ctx: 50000
+
+request:
+  timeout_seconds: 1800
+  max_retries: 5
+  retry_delay_seconds: 5
