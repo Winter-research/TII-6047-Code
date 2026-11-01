@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located near the center of the image.",
+  "has_insulator": "Yes | Several brown composite insulator strings are visible hanging from the tangent-tower crossarm.",
+  "nest_type": "Yes | The bird nest is located at the fitting connecting the outer crossarm to the insulator, almost directly above the insulator and far from the vertical tower body. It is therefore a crossarm nest.",
+  "material_droop": "Yes | The nest is made of branches and straw, and several straw ends are visibly drooping.",
+  "nest_stable": "No | Material is drooping, so the decision proceeds directly through Step 4B and this field requires no assessment.",
+  "material_touch": "No | The drooping material is relatively short. A small amount of straw covers part of the metal-hanger length but has not clearly wrapped around or touched the insulator string.",
+  "grade_result": "Major | The bird nest is a crossarm nest directly above and close to the ceramic insulator. Some material is drooping, but it is short and does not touch the insulator. The defect is graded as Major."
+}

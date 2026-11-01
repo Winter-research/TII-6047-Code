@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located in the lower-left area of the image.",
+  "has_insulator": "Yes | A green glass insulator is visible on the outer side of a crossarm below the tower body.",
+  "nest_type": "No | The bird nest is located on the tower body near the junction between the vertical tower body and the crossarm. It is clearly not on the outward-extending crossarm and is therefore a tower-body nest.",
+  "material_droop": "No | This is a tower-body nest; according to the decision tree, this field requires no further assessment.",
+  "nest_stable": "No | This is a tower-body nest; according to the decision tree, this field requires no further assessment.",
+  "material_touch": "No | This is a tower-body nest; according to the decision tree, this field requires no further assessment.",
+  "grade_result": "Else | The bird nest is located on the tower body and is therefore graded as Else."
+}

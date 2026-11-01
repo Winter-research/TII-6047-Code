@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located in the lower-right area of the image.",
+  "has_insulator": "Yes | Several glass insulators are visible near the edge of the crossarm extending outward from the tower body.",
+  "nest_type": "No | The bird nest is located high on the central vertical tower body rather than on a crossarm and is therefore a tower-body nest.",
+  "material_droop": "No | This is a tower-body nest; no subsequent assessment is required.",
+  "nest_stable": "No | This is a tower-body nest; no subsequent assessment is required.",
+  "material_touch": "No | This is a tower-body nest; no subsequent assessment is required.",
+  "grade_result": "Else | The bird nest is on the tower body, while the insulators are on an outward-extending crossarm and are far from the nest. According to the defect-grading decision tree, the defect is graded as Else."
+}
