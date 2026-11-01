@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located slightly to the right of the image center.",
+  "has_insulator": "Yes | A white ceramic insulator string is visible on the outward-extending tangent-tower crossarm.",
+  "nest_type": "No | The bird nest is located near the junction between the vertical tower body and crossarm, close to the tower body, and is therefore a tower-body nest.",
+  "material_droop": "No | This is a tower-body nest; no subsequent assessment is required.",
+  "nest_stable": "No | This is a tower-body nest; no subsequent assessment is required.",
+  "material_touch": "No | This is a tower-body nest; no subsequent assessment is required.",
+  "grade_result": "Else | The bird nest is located at the junction between the tangent-tower body and crossarm, while the insulator string is installed at the outer edge of the crossarm and is far from the nest. According to the decision tree, a tower-body nest is graded as Else."
+}

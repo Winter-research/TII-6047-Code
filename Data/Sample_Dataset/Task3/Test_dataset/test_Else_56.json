@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located in the lower-right area of the image.",
+  "has_insulator": "Yes | Several glass insulators are visible on the crossarm and are connected to the concrete pole through metal fittings.",
+  "nest_type": "No | The bird nest is located at the junction between the concrete-pole body and the crossarm. It is a tower-body nest rather than a crossarm nest and is clearly lower than the insulators.",
+  "material_droop": "No | This is a tower-body nest; according to the decision tree, this field requires no subsequent assessment.",
+  "nest_stable": "No | This is a tower-body nest; according to the decision tree, this field requires no subsequent assessment.",
+  "material_touch": "No | This is a tower-body nest; according to the decision tree, this field requires no subsequent assessment.",
+  "grade_result": "Else | The bird nest is located at the junction between the concrete-pole body and the crossarm and is therefore a tower-body nest. The insulators are installed on the crossarm at a distance from the nest. According to the decision tree, the defect is graded as Else."
+}

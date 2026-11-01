@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located in the upper area of the image.",
+  "has_insulator": "Yes | A brown composite insulator and several green glass insulators are visible hanging from the tangent-tower crossarm.",
+  "nest_type": "Yes | The bird nest is located on the outer crossarm of the tangent tower on the other side of the image, close to the glass insulators, and is therefore a crossarm nest.",
+  "material_droop": "Yes | The nest is made of straw and slender branches, with obvious and relatively long drooping material.",
+  "nest_stable": "No | Long material is drooping, so the decision proceeds directly through Step 4B and nest looseness or volume requires no assessment.",
+  "material_touch": "Yes | The drooping material clearly exceeds the length of the metal hangers connecting the insulators and tangent tower. It contacts the insulator string in several places and even wraps around the area below the insulator, creating a bridging risk.",
+  "grade_result": "Urgent | The bird nest is a crossarm nest directly above the composite-insulator suspension point and is extremely close to it. A large amount of long drooping material has reached the insulator string and may cause a short circuit. According to the decision tree, immediate action is required and the defect is graded as Urgent."
+}

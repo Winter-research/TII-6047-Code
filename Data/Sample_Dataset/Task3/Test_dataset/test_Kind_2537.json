@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located in the upper-right area of the image.",
+  "has_insulator": "Yes | A brown composite insulator is visible on the crossarm.",
+  "nest_type": "Yes | The bird nest is located near the fitting connecting the outward-extending tangent-tower crossarm to the insulator, directly above the insulator, and is therefore a crossarm nest.",
+  "material_droop": "No | The nest has a compact structure, with no obvious drooping straw or branches.",
+  "nest_stable": "No | The nest is small and structurally stable.",
+  "material_touch": "No | No foreign material is drooping. The decision proceeds through Step 4A, so this field requires no assessment.",
+  "grade_result": "Kind | The bird nest is a crossarm nest close to the insulator, but no foreign material is drooping and the nest is small and stable. It is therefore graded as Kind."
+}

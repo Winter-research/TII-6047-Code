@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located in the upper-middle area of the image.",
+  "has_insulator": "Yes | A brown composite insulator string is visible hanging from the crossarm.",
+  "nest_type": "Yes | The bird nest is located on the tangent-tower crossarm directly above the fitting connected to the insulator and is therefore a crossarm nest.",
+  "material_droop": "Yes | The nest contains a large amount of straw and branches, with obvious and relatively long drooping material.",
+  "nest_stable": "No | Material is clearly drooping, so the decision proceeds directly through Step 4B and nest-structure stability requires no assessment.",
+  "material_touch": "Yes | The drooping material clearly exceeds the connecting-fitting length. Some straw has wrapped around or contacted the composite insulator string and is scattered around the insulator.",
+  "grade_result": "Urgent | This is a crossarm nest adjacent to the composite insulator, with a large amount of long drooping foreign material that creates a severe insulation risk. According to the decision tree, it is graded as Urgent."
+}
