@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box containing the bird nest is located near the center of the image.",
+  "has_insulator": "Yes | Glass insulators are visible on the crossarm.",
+  "nest_type": "Yes | The bird nest is located at the center of the crossarm between two vertical sections of the tangent tower and is therefore a crossarm nest.",
+  "material_droop": "No | No material is drooping from the bird nest.",
+  "nest_stable": "No | The bird nest is bowl-shaped and relatively small.",
+  "material_touch": "No | No material is drooping. The decision proceeds through Step 4A, so no assessment of this field is required.",
+  "grade_result": "Kind | The bird nest is a crossarm nest located directly above and close to the insulators at the center of the crossarm. However, the nest is relatively small. According to the defect grading decision tree, the defect is graded as Kind."
+}
