@@ -1,0 +1,3 @@
+Expert_Standards:
+Else: Partial crimping is applied between the overhead ground wire (OGW) aluminum tube and the OGW steel anchor.
+Kind: No crimping is applied between the overhead ground wire (OGW) aluminum tube and the OGW steel anchor.

@@ -1,0 +1,5 @@
+Expert_Standards:
+Else: Birds build nests on the tower body, far away from cross-arms and insulators, with no protective measures in place.
+Kind: Birds build nests around insulator hanging points and on cross-arms of tangent towers, where the nests are small in size and have no foreign objects hanging down.
+Major: Birds build nests at insulator hanging points, with foreign objects bridging the upper edge of the insulator strings without making contact with the insulator body.
+Urgent: Birds build nests at insulator hanging points, with foreign objects bridging the insulator strings and making significant and extensive contact with the insulator discs.

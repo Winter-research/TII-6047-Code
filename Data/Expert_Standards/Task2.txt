@@ -1,0 +1,4 @@
+Expert_Standards:
+Else: Slight corrosion occurs on the guy wire fittings, with the corroded area retaining the same color as the base material.
+Kind: Moderate corrosion occurs on the guy wire fittings, where the surface remains smooth and the structural framework is intact.
+Major: Severe corrosion occurs on the guy wire fittings, accompanied by a rough and granular surface, as well as deformation and weathering of the structural framework.
