@@ -1,0 +1,6 @@
+{
+  "location_description": "The guying fitting is located within the blue box at the center of the image.",
+  "degree_of_rusting": "No | The original color of the fitting body is bright yellow. Dark reddish-brown corrosion is present only on the upper part of the fitting, and its area is clearly less than half of the body.",
+  "smoothness_and_architecture": "No | The fitting remains structurally intact and its surface remains smooth, with no burr-like roughness, structural weathering, or deformation.",
+  "grade_result": "Else | The guying fitting has only a small number of corrosion spots concentrated on its upper part. Its structure is intact and its surface is smooth without burr-like roughness, satisfying the Else-grade condition in the decision tree."
+}
