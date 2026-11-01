@@ -1,0 +1,17 @@
+resolution: 1280
+random_seed: 6047
+sample_dataset_dir: Data/Sample_Dataset
+processed_images_dir: 1_Data_Processing/results/images
+output_dirs:
+  - Data/Fine-Tuning_Dataset
+  - 3_Fine-Tuning_Dataset_Construction/results
+
+tasks:
+  Task1:
+    output: Task1_Fine-Tuning_Dataset.json
+  Task2:
+    output: Task2_Fine-Tuning_Dataset.json
+  Task3:
+    output: Task3_Fine-Tuning_Dataset.json
+
+multi_task_output: Multi-Task_Fine-Tuning_Dataset.json
