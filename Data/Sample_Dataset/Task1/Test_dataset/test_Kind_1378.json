@@ -1,0 +1,6 @@
+{
+  "location_description": "The tension-clamp aluminum tube is located near the center of the blue box. Its left end is connected to the steel anchor, and its right end is connected to the conductor.",
+  "left_end_crimp": "Yes | The left, steel-anchor end has no crimping marks and remains smooth and cylindrical.",
+  "right_end_crimp": "Yes | The right, conductor end has no crimping marks and remains smooth and cylindrical.",
+  "grade_result": "Kind | Both ends of the aluminum tube are smooth and cylindrical, with no continuous angular crimping marks, regular flattening, or deformation. Crimping is entirely absent, so the defect is graded as Kind according to the decision tree."
+}
