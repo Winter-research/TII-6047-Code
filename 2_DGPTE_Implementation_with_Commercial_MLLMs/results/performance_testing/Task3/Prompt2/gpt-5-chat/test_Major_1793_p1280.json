@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_1793_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Major_1793_p1280.jpg",
+  "true_grade": "Major",
+  "response": "{\n  \"has_nest\": \"The blue box is located in the center of the image. The nest is piled at the junction of the horizontal beam and two braces, above the suspension point of the insulator string.\",\n  \"has_insulator\": \"Yes | At least one insulator string and its connecting fittings are visible in the image.\",\n  \"nest_type\": \"Yes | The nest is located on an outward-extending crossarm and is clearly away from the main body of the vertical tower or concrete pole.\",\n  \"material_droop\": \"Yes | Multiple branches, straw, or other nest materials visibly extend below the supporting beam and hang downward.\",\n  \"nest_stable\": \"No | Drooping material is present, so the decision proceeds to Step 4B and the Step 4A nest-structure check is not applicable.\",\n  \"material_touch\": \"No | The drooping branches remain near the beam and metal fittings; they do not clearly exceed the fitting length or wrap around the insulator.\",\n  \"grade_result\": \"Major | An insulator string is visible, and the nest is located on a crossarm away from the vertical tower body. Nest material is visibly drooping, but it does not clearly exceed the metal-fitting length or wrap around the insulator. According to Step 4B, the defect is graded as Major.\"\n}",
+  "answer": "Major",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 2 - GDT-Based CoT Process",
+  "prompt": 2
+}

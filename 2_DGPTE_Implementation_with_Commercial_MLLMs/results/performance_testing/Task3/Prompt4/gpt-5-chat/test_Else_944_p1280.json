@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_944_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Else_944_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"has_nest\": \"The blue box and nest are located to the right of the image center, on a structural member of the vertical tower body below and to the right of the white insulator string.\",\n  \"has_insulator\": \"Yes | At least one insulator string and its connecting fittings are visible in the image.\",\n  \"nest_type\": \"No | The nest is located within or immediately beside the vertical tower body or concrete pole and is not clearly separated from the main body.\",\n  \"material_droop\": \"No | Step 2 already determines the grade as Else, so the subsequent drooping check is not applicable.\",\n  \"nest_stable\": \"No | Step 2 already determines the grade as Else, so the nest-structure check is not applicable.\",\n  \"material_touch\": \"No | Step 2 already determines the grade as Else, so the drooping-length check is not applicable.\",\n  \"grade_result\": \"Else | An insulator string is visible, but the nest is located within or immediately beside the vertical tower body rather than on a crossarm clearly away from it. According to Step 2 of the decision tree, the defect is graded as Else and no further checks are required.\"\n}",
+  "answer": "Else",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images",
+  "prompt": 4
+}

@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_1010_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Else_1010_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"has_nest\": \"The blue box and nest are located above and to the right of the image center, on the outward-extending crossarm platform of the tower.\",\n  \"has_insulator\": \"Yes | At least one insulator string and its connecting fittings are visible in the image.\",\n  \"nest_type\": \"Yes | The nest is located on the crossarm, away from the main body of the vertical tangent tower.\",\n  \"material_droop\": \"No | No straw or branch materials hang down from the bird nest.\",\n  \"nest_stable\": \"Yes | The bird nest is loose and has a large volume.\",\n  \"material_touch\": \"No | Step 4A already determines the grade as Major, so the drooping-length check is not applicable.\",\n  \"grade_result\": \"Major | An insulator string exists, the nest is judged to be on the crossarm away from tower main body, no materials droop, and the nest is loose and large in volume. According to Step 4A of the decision tree, the defect is graded as Major.\"\n}",
+  "answer": "Major",
+  "correct": 0,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images",
+  "prompt": 4
+}

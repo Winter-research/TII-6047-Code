@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_882_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Kind_882_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "***Kind***",
+  "answer": "Kind",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 3 - Only Result + Reference Images",
+  "prompt": 3
+}

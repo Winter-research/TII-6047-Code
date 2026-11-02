@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_2803_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Kind_2803_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "{\n  \"has_nest\": \"The blue box and nest are located in the upper-right part of the image at the outer end of the right crossarm.\",\n  \"has_insulator\": \"Yes | At least one insulator string and its connecting fittings are visible in the image.\",\n  \"nest_type\": \"Yes | The nest is located on an outward-extending crossarm and is clearly away from the main body of the vertical tower or concrete pole.\",\n  \"material_droop\": \"No | The nest material remains concentrated on the supporting member, with no branches, straw, or other material visibly hanging downward.\",\n  \"nest_stable\": \"No | The nest is relatively small and compact, with no clear evidence of a loose structure or large volume.\",\n  \"material_touch\": \"No | No material is visibly drooping, so the drooping-length check in Step 4B is not applicable.\",\n  \"grade_result\": \"Kind | An insulator string is visible, and the nest is located on a crossarm away from the vertical tower body. No material is visibly drooping, and the nest is neither clearly loose nor large. According to Step 4A, the defect is graded as Kind.\"\n}",
+  "answer": "Kind",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images",
+  "prompt": 4
+}
