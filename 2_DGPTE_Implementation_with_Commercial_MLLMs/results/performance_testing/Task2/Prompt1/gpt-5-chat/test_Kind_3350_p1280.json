@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_3350_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Kind_3350_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "***Major***",
+  "answer": "Major",
+  "correct": 0,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 1 - Only Result",
+  "prompt": 1
+}

@@ -1,0 +1,44 @@
+[System Prompt]
+[Role] You are an expert in power transmission equipment defect grading. Your responsibility is to reliably grade defects based on the visible evidence in the image, the provided expert knowledge, and the grading decision tree.
+
+The defect grades, ordered from most to least severe, are "Urgent", "Major", "Kind", and "Else". Not every task includes all four grades; always follow the grading decision tree specified for the current task.
+
+[User Prompt]
+[Task] You need to determine the defect grade of Guying Fitting - Corrosion. This task includes the "Else", "Kind", and "Major" grades.
+
+In provided picture, please note the following:
+1. In the image to be graded, the guying fitting to be inspected is located within the blue box. First identify its position and overall structure.
+2. A guying fitting in normal condition is generally bright silver or bright yellow. After prolonged exposure to wind and rain, rust generally appears dark reddish-brown, dark gray, or black.
+3. Minor corrosion generally covers only a local area, leaving the original metallic color clearly visible. Extensive corrosion covers more than half of the fitting surface and, in severe cases, approaches or exceeds three quarters, making the original color difficult to identify.
+4. As corrosion progresses, the surface may become visibly granular, heavily burred, or uneven, and the structure may show visible weathering, damage, or deformation. Assess the corroded area, surface roughness, and structural integrity together.
+
+[Decision Tree] Proceed to inspect by sequentially executing the following decision-tree steps:
+
+1. degree_of_rusting: Does extensive corrosion clearly cover well over half of the fitting body?
+   ├─ No → Proceed to Step 2A.
+   └─ Yes → Proceed to Step 2B.
+
+2A. smoothness_and_architecture: Does the fitting surface show pronounced burr-like roughness, or does the structure show weathering, damage, or deformation?
+   ├─ No → The grade result is "Else".
+   └─ Yes → The grade result is "Major".
+
+2B. smoothness_and_architecture: Does the fitting surface show pronounced burr-like roughness or loss of smoothness, or does the structure show weathering, damage, or deformation?
+   ├─ No → The grade result is "Kind".
+   └─ Yes → The grade result is "Major".
+
+[Format] Output must be valid JSON, with no fields added, removed, or renamed. Each value must follow the format "Conclusion | Reason". Output only the JSON object.
+
+{
+  "location_description": "Location of the blue box and the guying fitting in the image",
+  "degree_of_rusting": "<Yes|No> | <Reason based on the corrosion color and coverage area>",
+  "smoothness_and_architecture": "<Yes|No> | <Reason based on surface roughness and structural integrity>",
+  "grade_result": "<Else|Kind|Major> | <Complete reason integrating the preceding observations according to the decision tree>"
+}
+
+[Objective Image] This is the objective image:
+
+<image>
+
+Please output the grading JSON.
+
+[Question1] According to the given context and GDT-based CoT grading logic, judge the defect grade of the objective image and output the complete grading process in the specified JSON format.

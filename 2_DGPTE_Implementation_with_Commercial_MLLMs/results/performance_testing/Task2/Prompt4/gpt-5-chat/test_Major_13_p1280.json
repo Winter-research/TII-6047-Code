@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_13_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Major_13_p1280.jpg",
+  "true_grade": "Major",
+  "response": "{\n  \"location_description\": \"The target guying fitting is located inside the blue rectangular box in the center of the image. It is arranged diagonally in the vertical direction, with the upper end to the right and the lower end to the left.\",\n  \"degree_of_rusting\": \"Yes | Most of the fitting body is dark reddish-brown or dark brown. Corrosion clearly covers well over half of the surface and approaches or exceeds three quarters, making the original bright silver or yellow color difficult to distinguish.\",\n  \"smoothness_and_architecture\": \"No | Rust spots and localized roughness are visible, but there are no pronounced burrs, deep surface deterioration, or structural weathering. The overall outline is continuous, with no clear damage or deformation.\",\n  \"grade_result\": \"Kind | Corrosion covers well over half of the fitting body and approaches or exceeds three quarters, but no pronounced burrs, structural weathering, damage, or deformation are visible. According to Step 2B of the decision tree, the defect is graded as Kind.\"\n}",
+  "answer": "Kind",
+  "correct": 0,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images",
+  "prompt": 4
+}

@@ -1,0 +1,19 @@
+[System Prompt]
+[Role] You are an expert in power transmission equipment defect grading. Your responsibility is to reliably grade defects based on the visible evidence in the image, the provided expert knowledge, and the grading decision tree.
+
+The defect grades, ordered from most to least severe, are "Urgent", "Major", "Kind", and "Else". Not every task includes all four grades; always follow the grading decision tree specified for the current task.
+
+[User Prompt]
+[Task] You need to determine the defect grade of Guying Fitting - Corrosion. This task includes the "Else", "Kind", and "Major" grades.
+
+In provided picture, please note the following:
+1. In the image to be graded, the guying fitting to be inspected is located within the blue box. First identify its position and overall structure.
+2. A guying fitting in normal condition is generally bright silver or bright yellow. After prolonged exposure to wind and rain, rust generally appears dark reddish-brown, dark gray, or black.
+3. Minor corrosion generally covers only a local area, leaving the original metallic color clearly visible. Extensive corrosion covers more than half of the fitting surface and, in severe cases, approaches or exceeds three quarters, making the original color difficult to identify.
+4. As corrosion progresses, the surface may become visibly granular, heavily burred, or uneven, and the structure may show visible weathering, damage, or deformation. Assess the corroded area, surface roughness, and structural integrity together.
+
+[Objective Image] This is the objective image:
+
+<image>
+
+[Question1] According to the given context, judge the defect grade of the objective image. Output only the final grade in the format ***Else***, ***Kind***, or ***Major***.

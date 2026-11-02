@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_258_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Major_258_p1280.jpg",
+  "true_grade": "Major",
+  "response": "{\n  \"location_description\": \"The blue box is located to the left of the image center. It contains the vertically extending guying fitting, connected to the guy wire above and to a connecting component near the bottom of the image below.\",\n  \"degree_of_rusting\": \"Yes | Most of the fitting body is dark reddish-brown, dark brown, or gray-black. Corrosion clearly covers well over half of the surface and approaches or exceeds three quarters, making the normal bright silver or yellow color difficult to distinguish.\",\n  \"smoothness_and_architecture\": \"Yes | The fitting surface is visibly rough, with irregular rust accumulation, raised flakes, and burr-like edges. The middle and lower sections are uneven and show clear weathering and surface deterioration, so the surface is no longer smooth.\",\n  \"grade_result\": \"Major | Extensive corrosion covers well over half of the fitting body and approaches or exceeds three quarters, leading to Step 2B. The surface also shows pronounced roughness, burr-like edges, and weathering, satisfying the non-smooth surface condition. Therefore, the defect is graded as Major.\"\n}",
+  "answer": "Major",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 2 - GDT-Based CoT Process",
+  "prompt": 2
+}

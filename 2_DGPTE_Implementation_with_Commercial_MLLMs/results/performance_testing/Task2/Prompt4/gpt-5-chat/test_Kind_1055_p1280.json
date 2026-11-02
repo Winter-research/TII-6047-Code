@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_1055_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Kind_1055_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "{\n  \"location_description\": \"The guying fitting is located inside the blue rectangular box below the image center. It is arranged vertically, with the upper end connected to a connector and the lower end connected to the guy wire.\",\n  \"degree_of_rusting\": \"Yes | Most of the fitting body is dark brown or dark grayish-brown. Corrosion clearly covers well over half of the surface and approaches or exceeds three quarters, with the original metallic color visible only along some edges.\",\n  \"smoothness_and_architecture\": \"No | Local rust spots and slight roughness are visible, but there are no pronounced burrs or substantial unevenness. The body outline and connection structure remain intact, with no clear structural weathering, damage, or deformation.\",\n  \"grade_result\": \"Kind | Corrosion covers well over half of the fitting body and approaches or exceeds three quarters, but no pronounced burrs or clear structural damage are visible. Step 2B is therefore No, and the defect is graded as Kind.\"\n}",
+  "answer": "Kind",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images",
+  "prompt": 4
+}

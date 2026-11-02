@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_2301_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Else_2301_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"location_description\": \"The guying fitting is located inside the blue box below the image center. It is arranged horizontally, with its left end connected to a connector by a bolt and its right end clamping the guy wire.\",\n  \"degree_of_rusting\": \"No | Only a small portion of the fitting body is reddish-brown or dark brown. The corrosion clearly covers less than half of the fitting body, and the normal bright silver or yellow metallic color remains distinguishable.\",\n  \"smoothness_and_architecture\": \"No | The fitting has slight corrosion texture, but no pronounced burrs or severe unevenness are visible. The fitting outline, connecting bolt, and clamping part remain intact, with no clear structural weathering, damage, or deformation.\",\n  \"grade_result\": \"Else | The corrosion covers less than half of the fitting body. According to Step 1 of the decision tree, the defect is therefore graded as Else, and no further evaluation is required.\"\n}",
+  "answer": "Else",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images",
+  "prompt": 4
+}
