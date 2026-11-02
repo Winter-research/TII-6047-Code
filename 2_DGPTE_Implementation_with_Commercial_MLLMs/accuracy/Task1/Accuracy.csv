@@ -1,5 +1,0 @@
-task,prompt,model,sample_count,correct,ACC (%)
-Task1,Prompt1,gpt-5-chat,6,4,66.6667
-Task1,Prompt2,gpt-5-chat,6,5,83.3333
-Task1,Prompt3,gpt-5-chat,6,4,66.6667
-Task1,Prompt4,gpt-5-chat,6,5,83.3333
