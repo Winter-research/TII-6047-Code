@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box is located in the upper-right part of the image. The nest is built in the middle of the crossarm, directly above the right insulator string.",
+  "has_insulator": "Yes | At least one insulator string and its connecting fittings are visible in the image.",
+  "nest_type": "Yes | The nest is located on an outward-extending crossarm, clearly away from the vertical tower body.",
+  "material_droop": "Yes | Branches, straw, or other nest materials visibly extend below the supporting crossarm and hang downward.",
+  "nest_stable": "No | Drooping material is present, so the decision proceeds to Step 4B and the Step 4A nest-structure check is not applicable.",
+  "material_touch": "No | The drooping material does not clearly exceed the length of the metal fittings or wrap around the insulator string.",
+  "grade_result": "Major | An insulator string is visible, and the nest is located on a crossarm away from the vertical tower body. Nest material is visibly drooping, but it does not clearly exceed the fitting length or wrap around the insulator. According to Step 4B, the defect is graded as Major."
+}

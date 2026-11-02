@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box is located in the lower-right part of the image. The nest is attached near the junction of a vertical member and a brace on the tower body.",
+  "has_insulator": "Yes | At least one insulator string and its connecting fittings are visible in the image.",
+  "nest_type": "No | The nest is located within or immediately beside the vertical tower body and is not clearly separated from the main body, so it is a tower-body nest.",
+  "material_droop": "No | Step 2 already determines the grade as Else, so the subsequent drooping check is not applicable.",
+  "nest_stable": "No | Step 2 already determines the grade as Else, so the nest-structure check is not applicable.",
+  "material_touch": "No | Step 2 already determines the grade as Else, so the drooping-length check is not applicable.",
+  "grade_result": "Else | An insulator string is visible, but the nest is located within or immediately beside the vertical tower body rather than on a crossarm clearly away from it. According to Step 2, the defect is graded as Else and no further checks are required."
+}

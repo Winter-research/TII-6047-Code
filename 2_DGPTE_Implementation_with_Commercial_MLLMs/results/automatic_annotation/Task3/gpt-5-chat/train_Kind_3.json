@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box and nest are located above the image center. The nest is built on a steel member at the outer end of the outward-extending crossarm.",
+  "has_insulator": "Yes | At least one insulator string and its connecting fittings are visible in the image.",
+  "nest_type": "Yes | The nest is located at the outer end of an outward-extending crossarm, clearly away from the vertical tower body.",
+  "material_droop": "No | The nest material is concentrated on the crossarm, with no branches, straw, or other material visibly hanging downward.",
+  "nest_stable": "No | The nest is relatively small and compact, with no clear evidence of a loose structure or large volume.",
+  "material_touch": "No | No nest material is visibly drooping, so the drooping-length check in Step 4B is not applicable.",
+  "grade_result": "Kind | An insulator string is visible, and the nest is located on a crossarm away from the vertical tower body. No material is visibly drooping, and the nest is neither clearly loose nor large. According to Step 4A, the defect is graded as Kind."
+}

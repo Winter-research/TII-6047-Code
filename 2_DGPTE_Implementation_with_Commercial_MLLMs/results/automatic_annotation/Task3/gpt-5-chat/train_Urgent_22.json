@@ -1,0 +1,9 @@
+{
+  "has_nest": "The blue box is located in the center of the image. The nest is built near the connecting plate in the middle of the beam, directly above the glass insulator string, with nest material hanging down along both sides of the string.",
+  "has_insulator": "Yes | At least one insulator string and its connecting fittings are visible in the image.",
+  "nest_type": "Yes | The nest is located on an outward-extending crossarm, clearly away from the vertical tower body and directly above the insulator string.",
+  "material_droop": "Yes | A large amount of branches, straw, or other nest material visibly hangs down from the crossarm toward the insulator string.",
+  "nest_stable": "No | Drooping material is present, so the decision proceeds to Step 4B and the Step 4A nest-structure check is not applicable.",
+  "material_touch": "Yes | The drooping material clearly exceeds the length of the connecting fittings and reaches, contacts, or wraps around the upper part of the insulator string.",
+  "grade_result": "Urgent | An insulator string is visible, and the nest is located on a crossarm away from the vertical tower body. A large amount of nest material hangs beyond the connecting fittings and reaches or contacts the insulator area. According to Step 4B, the defect is graded as Urgent."
+}
