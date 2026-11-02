@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_1378_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task1/Test_dataset/test_Kind_1378_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "{\n  \"location_description\": \"The tension-clamp aluminum tube is located within the blue box. Its left end is connected to the steel anchor, and its right end is connected to the conductor.\",\n  \"left_end_crimp\": \"No | Continuous regular flattening and angular crimping marks are visible near the steel anchor at the left end.\",\n  \"right_end_crimp\": \"No | Continuous regular flattening and angular crimping marks are visible near the conductor at the right end. Although the surface is affected by illumination, the crimped section remains identifiable.\",\n  \"grade_result\": \"Kind | Distinct regular crimping marks are present at both ends of the aluminum tube, so the condition in which both ends are completely smooth, cylindrical, and uncrimped does not occur. According to the decision tree, the presence of crimping marks at the left end results in a Kind-grade defect.\"\n}",
+  "answer": "Kind",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images",
+  "prompt": 4
+}

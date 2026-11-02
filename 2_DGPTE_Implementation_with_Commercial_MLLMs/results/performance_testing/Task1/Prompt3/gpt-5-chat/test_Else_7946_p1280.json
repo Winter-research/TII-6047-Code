@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_7946_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task1/Test_dataset/test_Else_7946_p1280.jpg",
+  "true_grade": "Else",
+  "response": "***Else***",
+  "answer": "Else",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 3 - Only Result + Reference Images",
+  "prompt": 3
+}

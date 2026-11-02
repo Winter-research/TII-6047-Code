@@ -1,0 +1,40 @@
+[System Prompt]
+[Role] You are an expert in power transmission equipment defect grading. Your responsibility is to reliably grade defects based on the visible evidence in the image, the provided expert knowledge, and the grading decision tree.
+
+The defect grades, ordered from most to least severe, are "Urgent", "Major", "Kind", and "Else". Not every task includes all four grades; always follow the grading decision tree specified for the current task.
+
+[User Prompt]
+[Task] You need to determine the defect grade of Tension Clamp - Crimping. This task includes the "Else" and "Kind" grades.
+
+In provided picture, please note the following:
+1. In the image to be graded, the tension clamp is located within the blue box. First identify the position of the aluminum tube on the tension clamp.
+2. One end of the aluminum tube is connected to the steel anchor, and the other end is connected to the conductor. If the connection structures are visible, determine whether the left and right ends are connected to the steel anchor or the conductor. Do not infer a connection that is not visible.
+3. Crimping permanently deforms the aluminum tube using hydraulic or mechanical pressure, thereby forming a secure connection with the conductor. A crimped section generally has continuous hexagonal edges or a regularly flattened profile.
+4. An angular or regularly flattened section indicates crimping, whereas a smooth cylindrical section indicates no crimping. Exclude false crimping features caused by illumination, highlights, shadows, corrosion, or image blur.
+
+[Decision Tree] Proceed to inspect by sequentially executing the following decision-tree steps:
+
+1. left_end_crimp: Is the left end of the aluminum tube a smooth cylindrical area?
+   ├─ No → Crimping marks are present at the left end; the grade result is "Else".
+   └─ Yes → Proceed to inspect the right end.
+
+2. right_end_crimp: Is the right end of the aluminum tube a smooth cylindrical area?
+   ├─ No → Crimping marks are present at the right end; the grade result is "Else".
+   └─ Yes → Neither end has crimping marks; the grade result is "Kind".
+
+[Format] Output must be valid JSON, with no fields added, removed, or renamed. Each value must follow the format "Conclusion | Reason". Output only the JSON object.
+
+{
+  "location_description": "Location of the blue box and the tension-clamp aluminum tube, including whether the left and right ends are connected to the steel anchor or the conductor",
+  "left_end_crimp": "<Yes|No> | <Reason based on the shape of the left end of the aluminum tube>",
+  "right_end_crimp": "<Yes|No> | <Reason based on the shape of the right end of the aluminum tube>",
+  "grade_result": "<Else|Kind> | <Complete reason integrating the preceding observations according to the decision tree>"
+}
+
+[Objective Image] This is the objective image:
+
+<image>
+
+Please output the grading JSON.
+
+[Question1] According to the given context and GDT-based CoT grading logic, judge the defect grade of the objective image and output the complete grading process in the specified JSON format.

@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_5892_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task1/Test_dataset/test_Else_5892_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"location_description\": \"The blue box is located in the center of the image, and the metal tube extending horizontally inside it is the tension-clamp aluminum tube. Its left end is connected to the stranded conductor entering from the left side of the image, while its right end faces the steel anchor and annular connecting fitting. The right side is partially occluded by an oblique metal component.\",\n  \"left_end_crimp\": \"No | A relatively long, regularly flattened surface, clear longitudinal edges, and a polyhedral profile are visible at the left end and along the adjacent tube section. This section is not smooth and cylindrical and therefore exhibits visible crimping marks rather than brightness variation caused only by highlights or shadows.\",\n  \"right_end_crimp\": \"Yes | The visible portion at the right end of the tube is cylindrical, with a smooth surface and rounded profile. It does not show the distinct regularly flattened surfaces or edges visible on the left section. No inference is made regarding the occluded area.\",\n  \"grade_result\": \"Else | The left end has distinct regularly flattened surfaces and edges, so left_end_crimp is No and the Else-grade condition in the first step of the decision tree is satisfied. Although the visible part of the right end appears smooth and cylindrical, the condition in which neither end has crimping marks is not satisfied. The defect is therefore graded as Else.\"\n}",
+  "answer": "Else",
+  "correct": 1,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 2 - GDT-Based CoT Process",
+  "prompt": 2
+}

@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_5548_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task1/Test_dataset/test_Kind_5548_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "{\n  \"location_description\": \"The horizontal brown tubular component within the blue box is the tension-clamp aluminum tube. Its left end is connected to the steel anchor, while its right end is connected to the visible stranded conductor.\",\n  \"left_end_crimp\": \"Yes | The visible area at the left end is generally cylindrical and smooth, with no continuous regular hexagonal edges or flattened deformation marks.\",\n  \"right_end_crimp\": \"No | The right end of the aluminum tube shows obvious crimping marks indicated by color difference.\",\n  \"grade_result\": \"Else | No crimping marks are observed at the left end of the aluminum tube, while obvious large-area crimping marks exist at the right end. The defect grade is Else.\"\n}",
+  "answer": "Else",
+  "correct": 0,
+  "model": "gpt-5-chat",
+  "prompt_setting": "Prompt 2 - GDT-Based CoT Process",
+  "prompt": 2
+}
