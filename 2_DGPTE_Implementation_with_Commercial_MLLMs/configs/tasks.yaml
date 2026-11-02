@@ -1,0 +1,45 @@
+tasks:
+  Task1:
+    name: tension clamp crimping assessment
+    dataset_dir: Data/Sample_Dataset/Task1
+    image_dir: 1_Data_Processing/results/images/Task1
+    allowed_grades:
+      - Else
+      - Kind
+    required_fields:
+      - location_description
+      - left_end_crimp
+      - right_end_crimp
+      - grade_result
+
+  Task2:
+    name: guying fitting corrosion assessment
+    dataset_dir: Data/Sample_Dataset/Task2
+    image_dir: 1_Data_Processing/results/images/Task2
+    allowed_grades:
+      - Else
+      - Kind
+      - Major
+    required_fields:
+      - location_description
+      - degree_of_rusting
+      - smoothness_and_architecture
+      - grade_result
+
+  Task3:
+    name: tangent tower bird-nest assessment
+    dataset_dir: Data/Sample_Dataset/Task3
+    image_dir: 1_Data_Processing/results/images/Task3
+    allowed_grades:
+      - Else
+      - Kind
+      - Major
+      - Urgent
+    required_fields:
+      - has_nest
+      - has_insulator
+      - nest_type
+      - material_droop
+      - nest_stable
+      - material_touch
+      - grade_result

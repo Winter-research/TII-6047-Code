@@ -1,0 +1,15 @@
+model:
+  name: gpt-5-chat
+
+image:
+  resolution: 1280
+
+request:
+  max_retries: 5
+  retry_delay_seconds: 3
+
+performance_testing:
+  temperature: 0.0
+
+automatic_annotation:
+  temperature: 0.0
