@@ -1,0 +1,10 @@
+task,objective_image,result_path,judge_model,J,B,F,V,L,V_H,L_H,first_error_type,error_step,judge_reason,fully_correct
+Task2,test_Else_143_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Else_143_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Else_2301_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Else_2301_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Else_3062_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Else_3062_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Kind_1055_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Kind_1055_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Kind_1763_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Kind_1763_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Kind_3350_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Kind_3350_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Major_13_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Major_13_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Major_2035_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Major_2035_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task2,test_Major_258_p1280.jpg,results/performance_testing/Task2/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Major_258_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1

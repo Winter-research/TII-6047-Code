@@ -1,0 +1,13 @@
+task,objective_image,result_path,judge_model,J,B,F,V,L,V_H,L_H,first_error_type,error_step,judge_reason,fully_correct
+Task3,test_Else_1010_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Else_1010_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Else_56_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Else_56_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Else_944_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Else_944_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Kind_2537_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Kind_2537_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Kind_2803_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Kind_2803_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Kind_882_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Kind_882_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Major_1793_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Major_1793_p1280.json,gpt-5-chat,1,1,1,0,0,1,0,visual,has_insulator,"The model identifies the hanging insulator as composite, while the expert annotation identifies it as a glass insulator string.",0
+Task3,test_Major_2478_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Major_2478_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Major_70_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Major_70_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Urgent_1250_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Urgent_1250_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Urgent_3066_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Urgent_3066_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
+Task3,test_Urgent_99_p1280.jpg,results/performance_testing/Task3/Prompt4/Multi-Task_Fine-tuned_MLLM/test_Urgent_99_p1280.json,gpt-5-chat,1,1,1,1,1,0,0,none,none,consistent,1
