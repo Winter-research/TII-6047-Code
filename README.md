@@ -1,3 +1,7 @@
+# Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment in Power Grids (TII-26-6047)
+
+---
+
 Dear Editor and Reviewers,
 
 I hope this letter finds you well.  
@@ -6,8 +10,6 @@ Thank you for giving the author team the opportunity to revise and resubmit this
 The Author Team
 
 ---
-
-# Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment in Power Grids (TII-26-6047)
 
 This repository covers three defect-grading tasks:
 
