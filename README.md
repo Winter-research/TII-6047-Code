@@ -1,6 +1,6 @@
 # Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment in Power Grids (TII-26-6047)
 
----
+
 
 Dear Editor and Reviewers,
 
