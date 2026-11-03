@@ -223,11 +223,11 @@ Replace `Task1` with `Task2` or `Task3` to calculate a different task independen
 
 | Module | Documentation |
 |---|---|
-| Data processing | [README](1_Data_Processing/README.md) |
-| Commercial-MLLM testing and annotation | [README](2_DGPTE_Implementation_with_Commercial_MLLMs/README.md) |
-| Fine-tuning dataset construction | [README](3_Fine-Tuning_Dataset_Construction/README.md) |
-| Fine-tuning and deployment | [README](4_MLLM_Fine-Tuning_and_Local_Deployment/README.md) |
-| Fine-tuned-model verification | [README](5_Performance_Verification_of_the_Fine-Tuned_MLLM/README.md) |
+| 1_Data_Processing | [README](1_Data_Processing/README.md) |
+| 2_DGPTE_Implementation_with_Commercial_MLLMs | [README](2_DGPTE_Implementation_with_Commercial_MLLMs/README.md) |
+| 3_Fine-Tuning_Dataset_Construction | [README](3_Fine-Tuning_Dataset_Construction/README.md) |
+| 4_MLLM_Fine-Tuning_and_Local_Deployment | [README](4_MLLM_Fine-Tuning_and_Local_Deployment/README.md) |
+| 5_Performance_Verification_of_the_Fine-Tuned_MLLM | [README](5_Performance_Verification_of_the_Fine-Tuned_MLLM/README.md) |
 | Data | [README](Data/README.md) |
 | Prompt components | [README](Prompt_Components/README.md) |
 | Metrics | [README](Metrics/README.md) |
