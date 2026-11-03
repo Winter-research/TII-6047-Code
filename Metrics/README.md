@@ -1,5 +1,9 @@
 # Metrics
 
+This package provides the grading-performance and CoT-reliability metrics.
+
+## Structure
+
 ```text
 Metrics/
 ├── __init__.py
@@ -8,49 +12,38 @@ Metrics/
 └── README.md
 ```
 
-## Grading Metrics
+## Files
 
-`grading_performance_metrics.py` calculates:
+| File | Function |
+|---|---|
+| `__init__.py` | Exports the public metric functions. |
+| `grading_performance_metrics.py` | Classification, grade-distance, and over-/under-grading metrics. |
+| `cot_reliability_metrics.py` | JSON, decision-branch, final-grade, visual, and logical CoT evaluation. |
+
+## Inputs
+
+Grading metrics receive the true labels, predicted labels, and ordered grade list. CoT evaluation receives the model response, expert-reviewed JSON, and objective image.
 
 | Metric | Meaning |
 |---|---|
-| `ACC` | Grading accuracy |
-| `MP` | Macro precision |
-| `MR` | Macro recall |
-| `MF1` | Macro F1 score |
-| `NMAE` | Normalized grade-distance error |
-| `R_K` | Recall of the highest-severity grade |
-| `over_grading_rate` | Proportion of predictions above the ground-truth grade |
-| `under_grading_rate` | Proportion of predictions below the ground-truth grade |
+| `ACC` | Grading accuracy. |
+| `MP` | Macro precision. |
+| `MR` | Macro recall. |
+| `MF1` | Macro F1. |
+| `NMAE` | Normalized grade-distance error. |
+| `R_K` | Highest-severity recall. |
+| `over_grading_rate` | Rate of predictions above the true grade. |
+| `under_grading_rate` | Rate of predictions below the true grade. |
+| `ACC_FC_MCoT` | Rate of fully correct CoT responses. |
+| `VHR_CoT` | Visual hallucination rate. |
+| `LHR_CoT` | Logical hallucination rate. |
 
-List `labels` from the lowest to the highest severity because `NMAE`, `R_K`, and the two grading-error rates use this order.
+## Public Functions
 
-```python
-from Metrics import grading_metrics
-
-values = grading_metrics(
-    y_true=["Else", "Kind", "Major"],
-    y_pred=["Else", "Major", "Kind"],
-    labels=["Else", "Kind", "Major"],
-)
-```
-
-## CoT Metrics
-
-`cot_reliability_metrics.py` checks JSON validity (`J`), decision branches (`B`), final grade (`F`), visual description (`V`), and logical reasoning (`L`). It reports:
-
-| Metric | Meaning |
+| Function | Return value |
 |---|---|
-| `ACC_FC_MCoT` | Proportion of samples for which J, B, F, V, and L are all correct |
-| `VHR_CoT` | Visual hallucination rate |
-| `LHR_CoT` | Logical hallucination rate |
-
-The V and L checks use the commercial MLLM configured in Module 5.
-
-## Run
-
-```bash
-python 5_Performance_Verification_of_the_Fine-Tuned_MLLM/scripts/calculate_metrics.py --task Task1
-```
-
-Results are saved to `5_Performance_Verification_of_the_Fine-Tuned_MLLM/results/Task1/metrics/`.
+| `grading_metrics()` | Complete grading metric dictionary. |
+| `confusion_matrix()` | Grade confusion matrix. |
+| `per_class_precision_recall_f1()` | Precision, recall, and F1 for each grade. |
+| `evaluate_cot_sample()` | J, B, F, V, L, hallucination indicators, and first-error information for one sample. |
+| `cot_reliability_metrics()` | Aggregate CoT reliability metrics. |
