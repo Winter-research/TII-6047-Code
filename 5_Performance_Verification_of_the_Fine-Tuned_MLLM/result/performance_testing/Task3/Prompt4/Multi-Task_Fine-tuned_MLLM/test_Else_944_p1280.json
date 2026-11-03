@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_944_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Else_944_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"has_nest\": \"Yes | The blue box is slightly right of center and below the image midpoint, enclosing a small bird nest on the right side of the vertical tower body.\",\n  \"has_insulator\": \"Yes | A white ceramic insulator string is clearly visible near the center of the image, above and to the left of the nest.\",\n  \"nest_type\": \"No | The nest rests among the braces of the main vertical tower body rather than on an outward-extending crossarm away from the tower body.\",\n  \"material_droop\": \"No | Step 2 identifies a tower-body nest, so further assessment of drooping material is exempted.\",\n  \"nest_stable\": \"No | Step 2 identifies a tower-body nest, so further assessment of nest structure is exempted.\",\n  \"material_touch\": \"No | Step 2 ends the evaluation; assessing whether drooping materials exceed the metal-hanger length and wrap around the insulator is not required.\",\n  \"grade_result\": \"Else | An insulator string is present, but the boxed nest is located on the main vertical tower body rather than on a crossarm away from it. Step 2 therefore determines the grade as Else, and subsequent checks are exempted.\"\n}",
+  "answer": "Else",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

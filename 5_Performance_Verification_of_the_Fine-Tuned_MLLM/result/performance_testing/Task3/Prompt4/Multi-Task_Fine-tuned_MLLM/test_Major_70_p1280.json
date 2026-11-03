@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_70_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Major_70_p1280.jpg",
+  "true_grade": "Major",
+  "response": "{\n  \"has_nest\": \"Yes | The blue box is near the center of the image and contains a broad nest of branches on the crossarm above the two glass insulator strings.\",\n  \"has_insulator\": \"Yes | Two vertical glass insulator strings are visible directly below the nest.\",\n  \"nest_type\": \"Yes | The nest rests on the outer crossarm near the insulator suspension fittings, away from the main vertical tower body.\",\n  \"material_droop\": \"Yes | Several thin branches extend downward from the nest below the supporting crossarm edge.\",\n  \"nest_stable\": \"No | Drooping material is present, so Step 4B applies and further assessment of nest structure is exempted.\",\n  \"material_touch\": \"No | The drooping branches do not clearly exceed the length of the metal hangers connecting the insulators to the crossarm, and no wrapping around the insulators is visible.\",\n  \"grade_result\": \"Major | Insulator strings are present, and the nest is on the outer crossarm away from the main tower body. Branches hang down, but they do not clearly exceed the metal-hanger length or wrap around an insulator. According to Step 4B, the defect is graded as Major.\"\n}",
+  "answer": "Major",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

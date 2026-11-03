@@ -1,0 +1,11 @@
+{
+  "picture": "test_Urgent_3066_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Urgent_3066_p1280.jpg",
+  "true_grade": "Urgent",
+  "response": "{\n  \"has_nest\": \"Present | The blue box is in the upper-central area of the image and encloses a large bird nest above the insulator attachment fittings, with branches hanging downward.\",\n  \"has_insulator\": \"Yes | Multiple brown insulator strings are visible beneath the crossarm.\",\n  \"nest_type\": \"Yes | The nest rests on the crossarm near the insulator attachment fittings, away from the vertical main tower body.\",\n  \"material_droop\": \"Yes | Numerous branches and strands hang substantially below the nest between the insulator strings.\",\n  \"nest_stable\": \"No | Material is drooping, so Step 4B applies and further assessment of nest structure is exempted.\",\n  \"material_touch\": \"Yes | The hanging branches clearly extend beyond the metal-hanger length and reach around the upper portion of the right-hand insulator.\",\n  \"grade_result\": \"Urgent | Insulator strings are present, and the nest is on the crossarm near their attachment fittings, away from the main tower body. Long nesting materials hang below the fittings, clearly exceed the metal-hanger length, and wrap around the upper portion of the right-hand insulator. Under Step 4B, the defect is graded as Urgent.\"\n}",
+  "answer": "Urgent",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

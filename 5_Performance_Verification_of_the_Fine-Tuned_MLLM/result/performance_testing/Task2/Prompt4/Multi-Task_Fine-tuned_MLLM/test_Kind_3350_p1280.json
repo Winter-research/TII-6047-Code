@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_3350_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Kind_3350_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "{\n  \"location_description\": \"The guying fitting is positioned vertically within the blue box near the center of the image.\",\n  \"degree_of_rusting\": \"Yes | Reddish-brown rust almost covers the entire fitting body, and the rusted area obviously exceeds half of the fitting body.\",\n  \"smoothness_and_architecture\": \"No | The fitting remains intact, without obvious strong burrs, weathering damage or structural deformation.\",\n  \"grade_result\": \"Kind | Reddish-brown rust almost covers the entire fitting body, the rust area obviously exceeds half of the fitting body, but there is no obvious strong burr feeling, weathering damage or structural deformation of the fitting. According to the decision tree, it is graded as Kind.\"\n}",
+  "answer": "Kind",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

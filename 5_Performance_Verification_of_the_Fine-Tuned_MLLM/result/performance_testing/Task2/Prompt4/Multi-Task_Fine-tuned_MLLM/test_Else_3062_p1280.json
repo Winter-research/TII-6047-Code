@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_3062_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Else_3062_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"location_description\": \"The guying fitting is positioned horizontally within the blue box near the center of the image.\",\n  \"degree_of_rusting\": \"No | The rusted area does not exceed half of the total area of the guying fitting body.\",\n  \"smoothness_and_architecture\": \"No | The surface has no obvious strong burrs, weathering damage or structural deformation of the fitting.\",\n  \"grade_result\": \"Else | The rust area of the guying fitting does not exceed half of the fitting body, and there are no obvious strong burrs, weathering damage or structural deformation, so it is graded as Else.\"\n}",
+  "answer": "Else",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

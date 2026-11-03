@@ -1,0 +1,11 @@
+{
+  "picture": "test_Urgent_99_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Urgent_99_p1280.jpg",
+  "true_grade": "Urgent",
+  "response": "{\n  \"has_nest\": \"Yes | The blue box is near the upper center of the image, slightly right of center, enclosing a bird nest beneath a horizontal steel crossarm.\",\n  \"has_insulator\": \"Yes | A large brown composite insulator is in the foreground, and glass insulator strings are visible behind the composite insulator, directly below the boxed nest.\",\n  \"nest_type\": \"Yes | The nest is supported on the crossarm near the suspension fittings above the rear glass insulators, away from the vertical main tower body.\",\n  \"material_droop\": \"Yes | Numerous branches and straw strands hang down vertically from the nest beneath the crossarm.\",\n  \"nest_stable\": \"No | Drooping material is present, so Step 4B applies and no further assessment under Step 4A is required.\",\n  \"material_touch\": \"Yes | The drooping nest material clearly extends downwards, exceeding the length of the metal hangers and draping close to / wrapping around the upper section of the rear glass insulator strings.\",\n  \"grade_result\": \"Urgent | Insulator strings are present, and the nest is on a crossarm away from the main tower body. Nest material visibly hangs down, and the drooping branches extend beyond the metal hangers and reach the rear glass insulator assembly. According to Step 4B, the defect is graded as Urgent.\"\n}",
+  "answer": "Urgent",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

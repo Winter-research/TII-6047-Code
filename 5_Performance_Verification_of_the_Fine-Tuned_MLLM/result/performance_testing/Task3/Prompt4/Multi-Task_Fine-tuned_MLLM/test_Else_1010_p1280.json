@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_1010_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Else_1010_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"has_nest\": \"Yes | The blue box is slightly right of center in the upper portion of the image and encloses a bird nest within the vertical tower body at the crossarm junction.\",\n  \"has_insulator\": \"Yes | A string of green glass insulators hangs beneath the outer end of the rightward-extending crossarm.\",\n  \"nest_type\": \"No | The nest is within the main vertical tower body at the crossarm root, rather than on an outward crossarm section away from the tower body.\",\n  \"material_droop\": \"No | Step 2 determines the Else grade; further assessment of drooping material is exempted.\",\n  \"nest_stable\": \"No | Step 2 determines the Else grade; further assessment of nest structure is exempted.\",\n  \"material_touch\": \"No | Step 2 determines the Else grade; assessment of whether drooping materials exceed the metal-hanger length and wrap around an insulator is exempted.\",\n  \"grade_result\": \"Else | An insulator string is visible, but the boxed nest is located within the vertical tower body at the crossarm junction, rather than on a crossarm away from the main body. Step 2 therefore determines the grade as Else, and subsequent checks are exempted.\"\n}",
+  "answer": "Else",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

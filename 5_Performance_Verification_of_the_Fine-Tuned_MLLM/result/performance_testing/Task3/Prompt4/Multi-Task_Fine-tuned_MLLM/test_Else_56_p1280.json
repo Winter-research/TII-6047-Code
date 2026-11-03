@@ -1,0 +1,11 @@
+{
+  "picture": "test_Else_56_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Else_56_p1280.jpg",
+  "true_grade": "Else",
+  "response": "{\n  \"has_nest\": \"Present | The blue box is near the bottom center-right of the image and contains a small bird nest at the crossarm attachment beside the concrete pole.\",\n  \"has_insulator\": \"Yes | Glass insulator strings are visible hanging from the outward-extending crossarms.\",\n  \"nest_type\": \"No | The nest is positioned directly against the vertical concrete pole at the crossarm attachment, rather than on an outer crossarm section clearly away from the pole.\",\n  \"material_droop\": \"No | Step 2 returns No, so further assessment of drooping material is exempted.\",\n  \"nest_stable\": \"No | Step 2 returns No, so further assessment of nest structure is exempted.\",\n  \"material_touch\": \"No | Step 2 returns No, so assessment of whether drooping materials exceed the metal-hanger length and wrap around an insulator is exempted.\",\n  \"grade_result\": \"Else | Insulator strings are present, but the boxed nest is directly beside the main concrete pole at the crossarm attachment and is not clearly away from the pole. Step 2 therefore returns No, and the decision tree assigns Else.\"\n}",
+  "answer": "Else",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

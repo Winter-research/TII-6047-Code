@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_882_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Kind_882_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "{\n  \"has_nest\": \"Yes | The blue box is slightly right of center in the upper half of the image and contains a bird nest resting on the crossarm grating.\",\n  \"has_insulator\": \"Yes | Two long glass insulator strings hang from the outer end of the crossarm.\",\n  \"nest_type\": \"Yes | The nest is on the outward-extending crossarm, clearly away from the vertical main tower body on the right.\",\n  \"material_droop\": \"No | The nest materials remain on the crossarm grating, with no clearly visible material hanging down.\",\n  \"nest_stable\": \"No | The nest is relatively small and compact, without a visibly loose structure or large volume.\",\n  \"material_touch\": \"No | No drooping material is visible, and no material clearly exceeds the metal-hanger length or wraps around an insulator. Step 4B is not applicable.\",\n  \"grade_result\": \"Kind | Insulator strings are present, and the nest is on the crossarm away from the main tower body. No material visibly droops, and the nest is relatively small and compact. According to Step 4A of the decision tree, the defect is graded as Kind.\"\n}",
+  "answer": "Kind",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

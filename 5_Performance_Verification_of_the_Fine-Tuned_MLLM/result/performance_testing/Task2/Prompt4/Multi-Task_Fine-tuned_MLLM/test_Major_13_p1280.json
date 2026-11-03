@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_13_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task2/Test_dataset/test_Major_13_p1280.jpg",
+  "true_grade": "Major",
+  "response": "{\n  \"location_description\": \"The guying fitting is within the blue box near the center of the image, oriented vertically.\",\n  \"degree_of_rusting\": \"Yes | Dark reddish-brown and black corrosion covers most of the visible fitting surface, making its original metallic color difficult to distinguish.\",\n  \"smoothness_and_architecture\": \"Yes | The surface appears heavily weathered and uneven, with visible roughness and deterioration.\",\n  \"grade_result\": \"Major | Extensive corrosion covers well over half of the fitting, and the visible rough, weathered surface meets the decision tree criteria for Major.\"\n}",
+  "answer": "Major",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

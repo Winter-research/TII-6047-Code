@@ -1,0 +1,11 @@
+{
+  "picture": "test_Kind_1378_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task1/Test_dataset/test_Kind_1378_p1280.jpg",
+  "true_grade": "Kind",
+  "response": "{\n  \"location_description\": \"The tension-clamp aluminum tube is located within the blue box. Its left end is connected to the steel anchor, and its right end is connected to the conductor.\",\n  \"left_end_crimp\": \"Yes | The left, steel-anchor end of the aluminum tube appears smooth and cylindrical, with no distinct angular or regularly flattened crimping marks.\",\n  \"right_end_crimp\": \"Yes | The right, conductor end of the aluminum tube appears smooth and cylindrical, with no distinct angular or regularly flattened crimping marks.\",\n  \"grade_result\": \"Kind | Neither end of the aluminum tube has visible crimping marks. Both ends retain a smooth cylindrical profile, forming an uncrimped-uncrimped condition that is graded as Kind according to the decision tree.\"\n}",
+  "answer": "Kind",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}

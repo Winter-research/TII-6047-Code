@@ -1,0 +1,11 @@
+{
+  "picture": "test_Major_2478_p1280.jpg",
+  "image_path": "1_Data_Processing/results/images/Task3/Test_dataset/test_Major_2478_p1280.jpg",
+  "true_grade": "Major",
+  "response": "{\n  \"has_nest\": \"Yes | The blue box is in the upper-right portion of the image and contains a large branch nest on the horizontal crossarm above the insulator attachment.\",\n  \"has_insulator\": \"Yes | Two brown insulator strings hang below the crossarm through metal fittings.\",\n  \"nest_type\": \"Yes | The nest rests on the outward-extending crossarm, clearly away from the vertical main tower body on the left.\",\n  \"material_droop\": \"Yes | Several branches and strands hang below the crossarm around the insulator suspension fittings.\",\n  \"nest_stable\": \"No | Drooping material is present, so Step 4B applies and assessment under Step 4A is exempted.\",\n  \"material_touch\": \"No | The hanging branches do not clearly extend beyond the metal-hanger length, and no material is visibly wrapped around either insulator.\",\n  \"grade_result\": \"Major | Insulator strings are present, and the nest is on the crossarm away from the main tower body. Nest material hangs below the crossarm, but it does not clearly exceed the metal-hanger length and wrap around an insulator. Step 4B therefore assigns Major.\"\n}",
+  "answer": "Major",
+  "correct": 1,
+  "model": "Multi-Task_Fine-tuned_MLLM",
+  "prompt": 4,
+  "prompt_setting": "Prompt 4 - GDT-Based CoT Process + Reference Images"
+}
