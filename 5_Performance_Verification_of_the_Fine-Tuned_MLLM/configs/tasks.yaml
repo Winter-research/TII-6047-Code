@@ -1,0 +1,16 @@
+grade_map:
+  Else: Else
+  Kind: Kind
+  Major: Major
+  Urgent: Urgent
+
+tasks:
+  Task1:
+    dataset_dir: Data/Sample_Dataset/Task1
+    image_dir: 1_Data_Processing/results/images/Task1
+  Task2:
+    dataset_dir: Data/Sample_Dataset/Task2
+    image_dir: 1_Data_Processing/results/images/Task2
+  Task3:
+    dataset_dir: Data/Sample_Dataset/Task3
+    image_dir: 1_Data_Processing/results/images/Task3

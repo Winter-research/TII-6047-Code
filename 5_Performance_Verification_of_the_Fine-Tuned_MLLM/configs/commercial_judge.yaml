@@ -1,0 +1,4 @@
+model: gpt-5-chat
+temperature: 0
+max_retries: 5
+retry_delay_seconds: 3
