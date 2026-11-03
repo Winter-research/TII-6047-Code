@@ -1,0 +1,40 @@
+{
+  "Task1": {
+    "task": "Task1",
+    "model": "Multi-Task_Fine-tuned_MLLM",
+    "recorded_models": [
+      "Multi-Task_Fine-tuned_MLLM"
+    ],
+    "result_directory": "results/performance_testing/Task1/Prompt4/Multi-Task_Fine-tuned_MLLM",
+    "missing_results": [],
+    "unparsed_results": [],
+    "grading": {
+      "labels": [
+        "Else",
+        "Kind"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "per_class": {
+        "Else": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Kind": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  }
+}
