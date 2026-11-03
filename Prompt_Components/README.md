@@ -50,6 +50,3 @@ prompts = load_components("Task1")
 role_prompt = prompts["role"]
 question_prompt = prompts["question_4"]
 ```
-
-Available task names are `Task1`, `Task2`, and `Task3`.
-`load_components()` returns a copy of the selected task's `COMPONENTS` dictionary.
