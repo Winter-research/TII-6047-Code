@@ -2,7 +2,7 @@
 
 Dear Editor,
 
-I hope this letter finds you well.  
+We hope this letter finds you well.  
 Thank you for giving the author team the opportunity to revise and resubmit this manuscript. This repository provides the complete code and a limited amount of sample data used in the study. We hope that these materials can help the reviewers further understand and assess our work. We sincerely hope that our revisions will receive your favorable consideration.
 
 The Author Team
